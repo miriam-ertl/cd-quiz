@@ -13,8 +13,11 @@ body {
   color: black;
   height: 50px;
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 
-.title {
-}
+.question__card {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
