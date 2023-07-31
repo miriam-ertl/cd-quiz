@@ -11,11 +11,10 @@
       <h1 class="title">Corporate Design Planer Quiz</h1>
     </header>
     <main>
-      <!-- Achte auf Accessibility -->
       <section class="question__card">
         <img
           class="bookmark__batch"
-          src="/assets/icons8-lesezeichen-120.png"
+          src="/assets/ribbon-white.png"
           alt="Hier bitte bookmarken"
         />
         <h2>Was ist ein Brainstorming?</h2>
@@ -29,7 +28,7 @@
       <section class="question__card">
         <img
           class="bookmark__batch"
-          src="/assets/icons8-lesezeichen-120.png"
+          src="/assets/ribbon-white.png"
           alt="Hier bitte bookmarken"
         />
         <h2>Was ist ein Claim?</h2>
@@ -44,7 +43,7 @@
         <h2>Wozu dient ein Proof?</h2>
         <img
           class="bookmark__batch"
-          src="/assets/icons8-lesezeichen-120.png"
+          src="/assets/ribbon-white.png"
           alt="Hier bitte bookmarken"
         />
         <button class="card__button">Antwort</button>
@@ -63,19 +62,23 @@
       </section>
     </main>
     <footer>
-      <nav>
-        <a href="#home"
+      <nav class="nav__box">
+        <!-- Stimmen die Aria labels? -->
+        <a aria-label="Home" href="#home"
           ><img
-            class="nav-icon"
+            class="nav__icon"
             src="/assets/icons8-zuhause-96.png"
             alt="Button Home"
         /></a>
-        <a href="#bookmark"
-          ><img class="nav-icon" src="/assets/ribbon.png" alt="Button Bookmark"
-        /></a>
-        <a href="#profilepage"
+        <a aria-label="Bookmark" href="#bookmark"
           ><img
-            class="nav-icon"
+            class="nav__icon"
+            src="/assets/ribbon-green.png"
+            alt="Button Bookmark"
+        /></a>
+        <a aria-label="Bookmark" href="#profilepage"
+          ><img
+            class="nav__icon"
             src="/assets/icons8-benutzer-96.png"
             alt="Button Benutzer Profil"
         /></a>
