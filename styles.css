@@ -23,8 +23,8 @@ section {
   background-color: white;
   color: black;
   height: 50px;
-  padding: 5px 10px;
-  margin: 20px;
+  width: 100%;
+  padding: 0 10px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -85,5 +85,26 @@ h2 {
 
 .smiley {
   height: 50px;
-  margin: 20px;
+  margin: 20px 0 100px;
+}
+
+footer {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+
+.nav__box {
+  height: 50px;
+  background-color: white;
+}
+
+.nav__icon {
+  height: 20px;
+  bottom: 20px;
+  margin: 5px;
 }
