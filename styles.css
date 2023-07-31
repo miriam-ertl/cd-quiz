@@ -1,3 +1,14 @@
 * {
   box-sizing: border-box;
 }
+
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 10px;
+}
+
+.title {
+  background-color: yellow;
+  color: black;
+  height: 50px;
+}
