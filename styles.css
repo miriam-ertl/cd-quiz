@@ -96,14 +96,9 @@ footer {
   width: 100%;
   bottom: 0;
   left: 0;
+  padding: 20px;
 }
 
-.nav__box {
-  height: 50px;
-  background-color: white;
-}
-
-/* Wie bekomme ich mehr Abstand zwischen die nav_icons? Stimmt etwas nicht an der Flexbox für den Footer? */
 .nav__icon {
   height: 20px;
   bottom: 20px;
