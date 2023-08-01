@@ -1,0 +1,9 @@
+.card__button {
+  background-color: #f9dc27;
+  font-size: 12px;
+  border-radius: 5px;
+  border: none;
+  padding: 5px 10px;
+  margin: 30px;
+  align-self: center;
+}

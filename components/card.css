@@ -1,0 +1,37 @@
+.question__card {
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  width: 60%;
+  margin: 20px 0 0 10px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+.bookmark__batch {
+  height: 30px;
+  position: absolute;
+  top: calc(0% - 8px);
+  left: calc(100% - 35px);
+}
+
+.category__quiz {
+  list-style-type: none;
+  gap: 20px;
+  list-style: none;
+  align-self: flex-start;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+.category__tag {
+  background-color: darkgray;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
