@@ -2,13 +2,25 @@
   box-sizing: border-box;
 }
 
+:root {
+  --background-color: #f9dc27;
+  --primary-color: #000000;
+  --secondary-color: #ffffff;
+  --primary-fonts: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
+  --border-radius: 5px;
+}
+
 h2 {
+  font-family: var(--primary-fonts);
+  font-weight: 600;
   font-size: 14px;
 }
 
 body {
-  background-color: #f9dc27;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: var(--background-color);
+  font-family: var(--primary-fonts);
+  font-weight: 600;
   font-size: 10px;
   text-align: center;
   margin: 0;

@@ -1,7 +1,7 @@
 .question__card {
-  background-color: black;
-  color: white;
-  border-radius: 5px;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  border-radius: var(--border-radius);
   width: 60%;
   margin: 20px 0 0 10px;
   padding: 20px;
@@ -11,7 +11,7 @@
   flex-direction: column;
   position: relative;
 }
-.bookmark__batch {
+.question__card-batch {
   height: 40px;
   position: absolute;
   top: calc(0% - 15px);
@@ -30,8 +30,10 @@
 }
 
 .category__tag {
+  font-family: var(--primary-fonts);
   background-color: darkgray;
+  font-weight: 600;
   border: none;
-  border-radius: 5px;
+  border-radius: var(--border-radius);
   padding: 5px 10px;
 }
