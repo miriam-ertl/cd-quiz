@@ -12,9 +12,9 @@
   position: relative;
 }
 .bookmark__batch {
-  height: 50px;
+  height: 40px;
   position: absolute;
-  top: calc(0% - 8px);
+  top: calc(0% - 15px);
   left: calc(100% - 35px);
 }
 
