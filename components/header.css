@@ -1,0 +1,12 @@
+.title__box {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  font-family: var(--primary-fonts);
+  font-weight: 800;
+  height: 50px;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
