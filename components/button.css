@@ -2,10 +2,10 @@
   background-color: var(--background-color);
   font-family: var(--primary-fonts);
   font-weight: 600;
-  font-size: 12px;
-  border-radius: 5px;
+  font-size: 1.2em;
+  border-radius: var(--border-radius);
   border: none;
-  padding: 5px 10px;
-  margin: 30px;
+  padding: 0.313em 0.625em;
+  margin: 1.875em;
   align-self: center;
 }

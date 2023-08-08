@@ -2,17 +2,14 @@
   background-color: var(--primary-color);
   color: var(--secondary-color);
   border-radius: var(--border-radius);
-  width: 60%;
-  margin: 20px 0 0 10px;
-  padding: 20px;
-  display: flex;
-  justify-content: center;
+  width: 50%;
+  margin: 2em 0 0 5em;
+  padding: 1.25em;
   align-items: center;
-  flex-direction: column;
   position: relative;
 }
 .question__card-batch {
-  height: 40px;
+  height: 2.5em;
   position: absolute;
   top: calc(0% - 15px);
   left: calc(100% - 35px);
@@ -20,7 +17,7 @@
 
 .category__quiz {
   list-style-type: none;
-  gap: 20px;
+  gap: 1.25em;
   list-style: none;
   align-self: flex-start;
   display: flex;
@@ -31,9 +28,9 @@
 
 .category__tag {
   font-family: var(--primary-fonts);
-  background-color: darkgray;
-  font-weight: 600;
+  background-color: DimGray;
+  font-weight: 400;
   border: none;
   border-radius: var(--border-radius);
-  padding: 5px 10px;
+  padding: 0.313em 0.625em;
 }

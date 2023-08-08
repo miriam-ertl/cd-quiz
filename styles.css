@@ -3,3 +3,7 @@
 @import "/components/navigation.css";
 @import "/components/button.css";
 @import "global.css";
+
+* {
+  box-sizing: border-box;
+}
