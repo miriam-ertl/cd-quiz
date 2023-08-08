@@ -3,16 +3,19 @@
   color: var(--secondary-color);
   border-radius: var(--border-radius);
   width: 50%;
-  margin: 2em 0 0 5em;
+  margin: 1.25em 0 0 0.625em;
   padding: 1.25em;
+  display: flex;
+  justify-content: center;
   align-items: center;
+  flex-direction: column;
   position: relative;
 }
 .question__card-batch {
   height: 2.5em;
   position: absolute;
-  top: calc(0% - 15px);
-  left: calc(100% - 35px);
+  top: calc(0% - 0.938em);
+  left: calc(100% - 2.188em);
 }
 
 .category__quiz {
@@ -28,8 +31,10 @@
 
 .category__tag {
   font-family: var(--primary-fonts);
-  background-color: DimGray;
-  font-weight: 400;
+  background-color: lightgoldenrodyellow;
+  font-weight: 600;
+  font-kerning: normal;
+  color: black;
   border: none;
   border-radius: var(--border-radius);
   padding: 0.313em 0.625em;

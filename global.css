@@ -20,11 +20,12 @@ body {
   font-size: 0.625rem;
   text-align: center;
   margin: 0 0 3.125rem 0;
+}
 
 main {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
 }
 
 .smiley {
